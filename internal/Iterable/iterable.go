@@ -1,8 +1,8 @@
 package iterable
 
 import (
-	"github.com/go-collection/internal/element"
 	"github.com/go-collection/internal/iterator"
+	"github.com/go-collection/pkg/element"
 )
 
 type Iterable interface {
