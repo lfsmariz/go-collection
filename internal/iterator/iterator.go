@@ -1,8 +1,6 @@
 package iterator
 
-import (
-	"github.com/go-collection/internal/element"
-)
+import "github.com/go-collection/pkg/element"
 
 type Iterator interface {
 	HasNext() bool
