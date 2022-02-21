@@ -9,7 +9,7 @@ type Collection interface {
 	iterable.Iterable
 	Size() int
 	IsEmpty() bool
-	Contains(element.Element) element.Element
+	Contains(element.Element) bool
 	ToArray() []element.Element
 	Add(element.Element) bool
 	Remove(element.Element) bool
